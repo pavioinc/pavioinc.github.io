@@ -364,46 +364,6 @@ section.tight { padding: 64px 0; }
 .timeline-step h3 { font-size: 16px; margin-bottom: 6px; }
 .timeline-step p { font-size: 13.5px; }
 
-/* ---------- Trust / Security ---------- */
-.trust-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
-  align-items: center;
-}
-.trust-list { display: grid; gap: 18px; }
-.trust-item { display: flex; gap: 14px; align-items: flex-start; }
-.trust-item .dot {
-  width: 28px;
-  height: 28px;
-  flex: none;
-  border-radius: 8px;
-  background: var(--primary-50);
-  color: var(--primary-700);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2px;
-}
-.trust-item h3 { font-size: 15.5px; margin-bottom: 4px; }
-.trust-item p { font-size: 14px; }
-
-.trust-panel {
-  background: var(--primary-800);
-  border-radius: 16px;
-  padding: 28px;
-  color: var(--primary-100);
-}
-.trust-panel .row {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 0;
-  border-bottom: 1px solid rgba(255,255,255,.12);
-  font-size: 14px;
-}
-.trust-panel .row:last-child { border-bottom: none; }
-.trust-panel .row span:last-child { color: var(--white); font-weight: 700; font-family: var(--font-mono); font-size: 13px; }
-
 /* ---------- Pricing ---------- */
 .pricing-grid {
   display: grid;
@@ -485,7 +445,6 @@ section.tight { padding: 64px 0; }
   .hero-grid { grid-template-columns: 1fr; }
   .hero-visual { order: -1; }
   .features-grid { grid-template-columns: repeat(2, 1fr); }
-  .trust-grid { grid-template-columns: 1fr; }
   .pricing-grid { grid-template-columns: repeat(3, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }

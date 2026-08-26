@@ -22,7 +22,6 @@
     <nav class="nav-links" id="navLinks">
       <a href="#features">Features</a>
       <a href="#how-it-works">How it works</a>
-      <a href="#security">Security</a>
       <a href="#pricing">Pricing</a>
     </nav>
     <div class="nav-actions">
@@ -198,55 +197,6 @@
     </div>
   </section>
 
-  <!-- Security / Trust -->
-  <section id="security">
-    <div class="container trust-grid">
-      <div>
-        <p class="eyebrow">Built on real infrastructure</p>
-        <h2>Multi-tenant by design, not by convention</h2>
-        <div class="trust-list" style="margin-top:28px">
-          <div class="trust-item">
-            <div class="dot" aria-hidden="true">🔒</div>
-            <div>
-              <h3>Row-level data isolation</h3>
-              <p>Every property's data is isolated at the database layer with Postgres row-level security — not just an application-level filter.</p>
-            </div>
-          </div>
-          <div class="trust-item">
-            <div class="dot" aria-hidden="true">🔑</div>
-            <div>
-              <h3>Signed, short-lived sessions</h3>
-              <p>RS256-signed JWTs with rotating refresh tokens for every login — phone OTP for owners and staff, email for renters.</p>
-            </div>
-          </div>
-          <div class="trust-item">
-            <div class="dot" aria-hidden="true">☁️</div>
-            <div>
-              <h3>Hosted on AWS</h3>
-              <p>Independently deployable services on AWS infrastructure, with structured logs, metrics, and request tracing across every request.</p>
-            </div>
-          </div>
-          <div class="trust-item">
-            <div class="dot" aria-hidden="true">🧩</div>
-            <div>
-              <h3>Idempotent by default</h3>
-              <p>Payment webhooks and billing runs are built to be safely retried — a duplicate event or a network hiccup never double-charges a tenant.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="trust-panel">
-        <div class="row"><span>Auth</span><span>RS256 JWT · Phone OTP</span></div>
-        <div class="row"><span>Payments</span><span>Razorpay</span></div>
-        <div class="row"><span>Messaging</span><span>WhatsApp + SMS fallback</span></div>
-        <div class="row"><span>Data isolation</span><span>Postgres RLS</span></div>
-        <div class="row"><span>Infrastructure</span><span>AWS</span></div>
-        <div class="row"><span>Receipts</span><span>Auto-generated PDF</span></div>
-      </div>
-    </div>
-  </section>
-
   <!-- Pricing -->
   <section id="pricing" style="background:var(--surface)">
     <div class="container">
@@ -327,7 +277,6 @@
         <a href="#features">Features</a>
         <a href="#how-it-works">How it works</a>
         <a href="#pricing">Pricing</a>
-        <a href="#security">Security</a>
       </div>
       <div class="footer-col">
         <h4>For tenants</h4>
