@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NivasaOS — Rent collection & operations for PG and hostel owners</title>
+<meta name="description" content="NivasaOS is a payment-first operations platform for India's PG and hostel owners: Razorpay rent collection, WhatsApp reminders, bed &amp; occupancy management, and a tenant self-service app.">
+<link rel="icon" type="image/svg+xml" href="assets/img/logo-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800&family=Noto+Sans+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#top">
+      <img src="assets/img/logo-mark.svg" alt="">
+      NivasaOS
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#security">Security</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-secondary" href="#pricing">Log in</a>
+      <a class="btn btn-primary" href="#pricing">Get started free</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Built for India's PG &amp; hostel operators</p>
+        <h1>Collect rent on time. Run your property from one screen.</h1>
+        <p class="lede">NivasaOS turns rent collection, bed occupancy, and tenant communication into one simple system — Razorpay payment links, automatic WhatsApp reminders, and a real-time bed map, built for how Indian PGs and hostels actually run.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-gold btn-lg" href="#pricing">Get started free</a>
+          <a class="btn btn-secondary btn-lg" href="#how-it-works">See how it works</a>
+        </div>
+        <p class="hero-note">Free plan available &middot; no credit card required for 1 property, up to 10 beds.</p>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="mock-window">
+          <div class="mock-topbar">
+            <span class="mock-title">Sunrise PG · Overview</span>
+            <span class="mock-pill">Synced</span>
+          </div>
+          <div class="mock-body">
+            <div class="mock-stats">
+              <div class="mock-stat">
+                <div class="label">Occupancy</div>
+                <div class="value">42/48</div>
+              </div>
+              <div class="mock-stat">
+                <div class="label">Collected</div>
+                <div class="value">₹94,800</div>
+              </div>
+              <div class="mock-stat warn">
+                <div class="label">Overdue</div>
+                <div class="value">₹8,200</div>
+              </div>
+            </div>
+            <div class="mock-row">
+              <div>
+                <div class="name">Anil Kumar</div>
+                <div class="sub">204-C · Weekly</div>
+              </div>
+              <span class="mock-badge paid">Paid</span>
+            </div>
+            <div class="mock-row">
+              <div>
+                <div class="name">Ravi Menon</div>
+                <div class="sub">112-A · Weekly</div>
+              </div>
+              <span class="mock-badge overdue">Overdue</span>
+            </div>
+            <div class="mock-row">
+              <div>
+                <div class="name">Suresh Pillai</div>
+                <div class="sub">305-B · Daily</div>
+              </div>
+              <span class="mock-badge pending">Pending</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="strip">
+    <div class="container">
+      The rent-collection loop, automated end to end: <strong>invoice → payment link → confirmation → receipt</strong> — no spreadsheets, no manual follow-up calls.
+    </div>
+  </div>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Everything the front desk used to track on paper</p>
+        <h2>One system for rent, rooms, and residents</h2>
+        <p>Built around the actual workflow of running a PG or hostel — not a generic property CRM adapted after the fact.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">₹</div>
+          <h3>Rent collection, automated</h3>
+          <p>Razorpay payment links, UPI and cards, or manual cash entry — every payment reconciles automatically and issues a PDF receipt, no manual bookkeeping.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🔁</div>
+          <h3>Recurring billing &amp; proration</h3>
+          <p>Daily, weekly, or monthly rent cycles, anchored to each tenant's own start date, with automatic proration when a stay ends mid-cycle.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">💬</div>
+          <h3>WhatsApp-first reminders</h3>
+          <p>Payment confirmations and dues reminders go out on WhatsApp — where tenants already are — with SMS as an automatic fallback.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🛏️</div>
+          <h3>Live bed &amp; occupancy map</h3>
+          <p>Floors, rooms, and beds as a real, clickable map — check tenants in and out, see vacancies at a glance, and track occupancy per property.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">📱</div>
+          <h3>Tenant self-service app</h3>
+          <p>Renters get their own app to view their rental and lease details, raise complaints, and request a stay renewal — without calling the office.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🪪</div>
+          <h3>Aadhaar OTP verification</h3>
+          <p>Tenants verify their identity themselves with a simple consent-and-OTP flow — no ID photocopies changing hands at the front desk.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🧾</div>
+          <h3>Finance ledger &amp; reports</h3>
+          <p>A real income/expense ledger alongside rent — CSV export, collection-rate and occupancy reporting, and a category breakdown at a glance.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🔐</div>
+          <h3>Roles &amp; permissions</h3>
+          <p>Owner, manager, staff, and warden roles out of the box — plus custom roles with fine-grained permissions for larger teams.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">🏢</div>
+          <h3>Multi-property, one login</h3>
+          <p>Switch between properties instantly and see occupancy, collections, and overdue rent for each one without logging in and out.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how-it-works" style="background:var(--surface)">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">The payment loop</p>
+        <h2>From invoice to receipt, without a follow-up call</h2>
+        <p>This is the core flow NivasaOS was built around first — the part of running a PG that eats the most time.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-step">
+          <div class="timeline-node">1</div>
+          <h3>Invoice generated</h3>
+          <p>Rent cycles run automatically, or an owner records a one-off charge in seconds.</p>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-node">2</div>
+          <h3>Payment link sent</h3>
+          <p>A Razorpay link goes to the tenant — or the owner records cash/UPI paid in person.</p>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-node">3</div>
+          <h3>Confirmed automatically</h3>
+          <p>Webhooks reconcile the payment the moment it clears — no manual matching against a bank statement.</p>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-node">4</div>
+          <h3>Receipt &amp; notification</h3>
+          <p>A PDF receipt is generated and a WhatsApp/SMS confirmation goes out — to owner and tenant, automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Security / Trust -->
+  <section id="security">
+    <div class="container trust-grid">
+      <div>
+        <p class="eyebrow">Built on real infrastructure</p>
+        <h2>Multi-tenant by design, not by convention</h2>
+        <div class="trust-list" style="margin-top:28px">
+          <div class="trust-item">
+            <div class="dot" aria-hidden="true">🔒</div>
+            <div>
+              <h3>Row-level data isolation</h3>
+              <p>Every property's data is isolated at the database layer with Postgres row-level security — not just an application-level filter.</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="dot" aria-hidden="true">🔑</div>
+            <div>
+              <h3>Signed, short-lived sessions</h3>
+              <p>RS256-signed JWTs with rotating refresh tokens for every login — phone OTP for owners and staff, email for renters.</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="dot" aria-hidden="true">☁️</div>
+            <div>
+              <h3>Hosted on AWS</h3>
+              <p>Independently deployable services on AWS infrastructure, with structured logs, metrics, and request tracing across every request.</p>
+            </div>
+          </div>
+          <div class="trust-item">
+            <div class="dot" aria-hidden="true">🧩</div>
+            <div>
+              <h3>Idempotent by default</h3>
+              <p>Payment webhooks and billing runs are built to be safely retried — a duplicate event or a network hiccup never double-charges a tenant.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trust-panel">
+        <div class="row"><span>Auth</span><span>RS256 JWT · Phone OTP</span></div>
+        <div class="row"><span>Payments</span><span>Razorpay</span></div>
+        <div class="row"><span>Messaging</span><span>WhatsApp + SMS fallback</span></div>
+        <div class="row"><span>Data isolation</span><span>Postgres RLS</span></div>
+        <div class="row"><span>Infrastructure</span><span>AWS</span></div>
+        <div class="row"><span>Receipts</span><span>Auto-generated PDF</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" style="background:var(--surface)">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Simple pricing</p>
+        <h2>Start free. Grow into what you need.</h2>
+        <p>Every plan includes the core rent-collection loop. Higher tiers add more properties, more beds, and more team controls.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="plan-card">
+          <div class="plan-name">Free</div>
+          <div class="plan-price">₹0<span>/mo</span></div>
+          <p class="plan-positioning">Try NivasaOS</p>
+          <p class="plan-limits">1 property, up to 10 beds</p>
+          <a class="btn btn-secondary" href="#top">Get started</a>
+        </div>
+        <div class="plan-card">
+          <div class="plan-name">Bronze</div>
+          <div class="plan-price">₹99<span>/mo</span></div>
+          <p class="plan-positioning">+ WhatsApp reminders, Aadhaar KYC</p>
+          <p class="plan-limits">1 property, up to 20 beds</p>
+          <a class="btn btn-secondary" href="#top">Choose Bronze</a>
+        </div>
+        <div class="plan-card featured">
+          <span class="plan-tag">Most popular</span>
+          <div class="plan-name">Silver</div>
+          <div class="plan-price">₹199<span>/mo</span></div>
+          <p class="plan-positioning">+ WhatsApp reminders, Aadhaar KYC</p>
+          <p class="plan-limits">Up to 5 properties, up to 200 beds</p>
+          <a class="btn btn-primary" href="#top">Choose Silver</a>
+        </div>
+        <div class="plan-card">
+          <div class="plan-name">Gold</div>
+          <div class="plan-price">₹499<span>/mo</span></div>
+          <p class="plan-positioning">+ Roles &amp; permissions, reports</p>
+          <p class="plan-limits">Up to 10 properties, up to 400 beds</p>
+          <a class="btn btn-secondary" href="#top">Choose Gold</a>
+        </div>
+        <div class="plan-card">
+          <div class="plan-name">Platinum</div>
+          <div class="plan-price" style="font-size:19px">Custom</div>
+          <p class="plan-positioning">+ Dedicated support</p>
+          <p class="plan-limits">Unlimited properties &amp; beds</p>
+          <a class="btn btn-secondary" href="#contact">Talk to us</a>
+        </div>
+      </div>
+      <p class="pricing-note">Prices in INR, billed monthly. NivasaOS is in early access — pricing and limits may evolve as we work with our first properties.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band" id="contact">
+    <div class="container">
+      <h2>Run your PG on one system, not five spreadsheets.</h2>
+      <p>NivasaOS is in early access. We're onboarding a small number of PG and hostel owners directly — tell us about your property and we'll get you set up.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-gold btn-lg" href="mailto:hello@nivasaos.com">Talk to our team</a>
+        <a class="btn btn-secondary btn-lg" style="border-color:rgba(255,255,255,.4); color:#fff" href="#pricing">See pricing</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top">
+          <img src="assets/img/logo-mark.svg" alt="">
+          NivasaOS
+        </a>
+        <p>Rent collection and property operations for India's PG and hostel owners.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#security">Security</a>
+      </div>
+      <div class="footer-col">
+        <h4>For tenants</h4>
+        <p>NivasaOS app</p>
+        <p>Pay rent online</p>
+        <p>Raise a complaint</p>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@nivasaos.com">hello@nivasaos.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 NivasaOS. All rights reserved.</span>
+      <span>Made for PGs and hostels across India.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
